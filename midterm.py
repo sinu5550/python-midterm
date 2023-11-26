@@ -21,7 +21,7 @@ class Hall(Star_Cinema):
                           [0,0,0,0,0,0,0],
                           [0,0,0,0,0,0,0],
                           [0,0,0,0,0,0,0],
-		                  [0,0,0,0,0,0,0]
+		          [0,0,0,0,0,0,0]
                          ]
     def book_seats(self,id, book_seat):
         if id not in self._seats:
